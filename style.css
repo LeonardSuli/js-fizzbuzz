@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(8, 59, 76);
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    line-height: 80px;
+    max-width: 800px;
+    margin: auto;
+}
+
+.box{
+    width: 80px;
+    aspect-ratio: 1;
+    border: 1px solid black;
+    margin: 5px;
+    background-color: rgb(19, 137, 178);
+}
+
+.box-fizz{
+    background-color: rgb(12, 214, 161);
+}
+
+.box-buzz{
+    background-color: rgb(255, 209, 102);
+}
+
+.box-fizz-buzz{
+    background-color: rgb(240, 70, 111);
+}
+
